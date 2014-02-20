@@ -69,7 +69,7 @@
   <created_user>-</created_user>
   <created_date>2014&#x2f;02&#x2f;19 19&#x3a;06&#x3a;00.485</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2014&#x2f;02&#x2f;20 04&#x3a;27&#x3a;00.492</modified_date>
+  <modified_date>2014&#x2f;02&#x2f;20 05&#x3a;12&#x3a;37.194</modified_date>
   </info>
   <notepads>
     <notepad>
@@ -433,7 +433,7 @@
     <optimizationLevel>9</optimizationLevel>
     <jsScripts>      <jsScript>        <jsScript_type>0</jsScript_type>
         <jsScript_name>Script 1</jsScript_name>
-        <jsScript_script>&#x2f;&#x2f;Script here&#xd;&#xa;&#x2f;&#x2f; http&#x3a;&#x2f;&#x2f;www.glerl.noaa.gov&#x2f;metdata&#x2f;chi&#x2f;2014&#x2f;20140220.04t.txt&#xd;&#xa;&#xd;&#xa;jan1 &#x3d; str2date&#x28;&#x22;01.01.2014&#x22;,&#x22;dd.MM.yyyy&#x22;&#x29;&#x3b;&#xd;&#xa;myDate &#x3d; dateAdd&#x28;jan1, &#x22;d&#x22;, idnew&#x29;&#x3b; &#xd;&#xa;myDateString &#x3d; date2str&#x28; myDate , &#x22;yyyyMMdd&#x22;&#x29;&#x3b;&#xd;&#xa;var url &#x3d; &#x22;http&#x3a;&#x2f;&#x2f;www.glerl.noaa.gov&#x2f;metdata&#x2f;chi&#x2f;2014&#x2f;&#x22; &#x2b; myDateString &#x2b; &#x22;.04t.txt&#x22;&#x3b;</jsScript_script>
+        <jsScript_script>&#x2f;&#x2f;Script here&#xd;&#xa;&#x2f;&#x2f; http&#x3a;&#x2f;&#x2f;www.glerl.noaa.gov&#x2f;metdata&#x2f;chi&#x2f;2014&#x2f;20140220.04t.txt&#xd;&#xa;&#xd;&#xa;jan1 &#x3d; str2date&#x28;&#x22;01.01.2014&#x22;,&#x22;dd.MM.yyyy&#x22;&#x29;&#x3b;&#xd;&#xa;myDate &#x3d; dateAdd&#x28;jan1, &#x22;d&#x22;, idnew&#x29;&#x3b; &#xd;&#xa;myDateString &#x3d; date2str&#x28; myDate , &#x22;yyyyMMdd&#x22;&#x29;&#x3b;&#xd;&#xa;&#xd;&#xa;&#x2f;&#x2f;we probably want to explicitly compute the year and use that within the URL below rather than hardcoding &#x2f;2014&#x2f;&#xd;&#xa;var url &#x3d; &#x22;http&#x3a;&#x2f;&#x2f;www.glerl.noaa.gov&#x2f;metdata&#x2f;chi&#x2f;2014&#x2f;&#x22; &#x2b; myDateString &#x2b; &#x22;.04t.txt&#x22;&#x3b;</jsScript_script>
       </jsScript>      <jsScript>        <jsScript_type>-1</jsScript_type>
         <jsScript_name>getDayNumber_Sample</jsScript_name>
         <jsScript_script>&#x2f;&#x2f; Returns the number of a date, inside the&#xa;&#x2f;&#x2f; given type.&#xa;&#x2f;&#x2f;&#xa;&#x2f;&#x2f; Usage&#x3a;&#xa;&#x2f;&#x2f; getDayNumber&#x28;var,var&#x29;&#x3b;&#xa;&#x2f;&#x2f; 1&#x3a; Date - The Variable with the Date.&#xa;&#x2f;&#x2f; 2&#x3a; String - The Type&#x3a;&#xa;&#x2f;&#x2f; y - Day in Year&#xa;&#x2f;&#x2f; m - Day in Month&#xa;&#x2f;&#x2f; w - Day in Week&#xa;&#x2f;&#x2f; wm - Day of Week in Month &#xa;&#x2f;&#x2f;&#xa;&#x2f;&#x2f; 2006-11-15&#xa;&#x2f;&#x2f;&#xa;var d1 &#x3d; new Date&#x28;&#x29;&#x3b;&#xa;Alert&#x28;getDayNumber&#x28;d1, &#x22;y&#x22;&#x29;&#x29;&#x3b;&#xa;Alert&#x28;getDayNumber&#x28;d1, &#x22;m&#x22;&#x29;&#x29;&#x3b;&#xa;Alert&#x28;getDayNumber&#x28;d1, &#x22;w&#x22;&#x29;&#x29;&#x3b;&#xa;Alert&#x28;getDayNumber&#x28;d1, &#x22;wm&#x22;&#x29;&#x29;&#x3b;&#xa;      </jsScript_script>
